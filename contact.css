@@ -1,0 +1,90 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.body-utm {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #0f0e0e;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+section p,
+section a {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+}
